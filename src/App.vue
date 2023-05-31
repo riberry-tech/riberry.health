@@ -30,6 +30,9 @@
 
 <script>
 import RiberryBrand from '@/components/RiberryBrand.vue'
+import FlagImageAU from '@/assets/flags/au.svg'
+import FlagImageGB from '@/assets/flags/gb.svg'
+import FlagImageUS from '@/assets/flags/us.svg'
 
 export default {
   components: {
@@ -42,17 +45,17 @@ export default {
       regions: [
         {
           name: 'United States',
-          flag: '/static/flags/us.svg',
+          flag: FlagImageUS,
           url: 'https://us.riberry.health',
         },
         {
           name: 'Australia',
-          flag: '/static/flags/au.svg',
+          flag: FlagImageAU,
           url: 'https://au.riberry.health',
         },
         {
           name: 'United Kingdoms',
-          flag: '/static/flags/gb.svg',
+          flag: FlagImageGB,
           url: 'https://uk.riberry.health',
         },
       ],
