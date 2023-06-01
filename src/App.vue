@@ -60,7 +60,7 @@ export default {
           url: 'https://au.riberry.health',
         },
         {
-          name: 'United Kingdoms',
+          name: 'United Kingdom',
           flag: FlagImageGB,
           url: 'https://uk.riberry.health',
         },
