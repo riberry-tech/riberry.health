@@ -3,7 +3,7 @@
     <RiberryBrand text-class="d-none d-sm-block" />
   </header>
 
-  <main class="container d-flex flex-column flex-grow-1 overflow-hidden">
+  <main class="container d-flex flex-column flex-grow-1">
     <div class="text-center my-5" style="font-size: 1.5rem">Please select your region</div>
 
     <div class="text-center row">
