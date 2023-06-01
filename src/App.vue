@@ -7,7 +7,7 @@
     <div class="text-center my-5" style="font-size: 1.5rem">Please select your region</div>
 
     <div class="text-center row">
-      <div v-for="region in regions" :key="region.name" class="col-12 col-md-4">
+      <div v-for="region in regions" :key="region.name" class="col-12 col-sm-6 col-md-4 col-lg-3">
         <a class="btn flag" :href="region.url" role="button">
           <img :src="region.flag" class="flag-icon" />
           <div class="flag-name">{{ region.name }}</div>
