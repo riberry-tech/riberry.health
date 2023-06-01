@@ -31,6 +31,7 @@
 <script>
 import RiberryBrand from '@/components/RiberryBrand.vue'
 import FlagImageAU from '@/assets/flags/au.svg'
+import FlagImageCA from '@/assets/flags/ca.svg'
 import FlagImageGB from '@/assets/flags/gb.svg'
 import FlagImageUS from '@/assets/flags/us.svg'
 
@@ -46,6 +47,11 @@ export default {
         {
           name: 'United States',
           flag: FlagImageUS,
+          url: 'https://us.riberry.health',
+        },
+        {
+          name: 'Canada',
+          flag: FlagImageCA,
           url: 'https://us.riberry.health',
         },
         {
@@ -82,7 +88,7 @@ a:hover {
   flex-direction: row;
   align-items: center;
 
-  padding: 0 0.2rem;
+  padding: 1rem 0.2rem;
 
   .flag-icon {
     max-width: 4rem;
